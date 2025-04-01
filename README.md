@@ -28,8 +28,10 @@ delay(1000);
 lcd.clear();
 return;
 }
-lcd.setCursor(0,0);
-lcd.print("Temp:");
-lcd.print("27C");
-delay(1000);
+ lcd.setCursor(0, 0);
+    lcd.print("Temp: ");
+    lcd.print(temperatureC);
+    lcd.print("C");
+
+    delay(1000);
 }
