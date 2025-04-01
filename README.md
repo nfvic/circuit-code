@@ -31,6 +31,7 @@ return;
  lcd.setCursor(0, 0);
     lcd.print("Temp: ");
     lcd.print(temperatureC);
+    lcd.print((char)223); // Prints degree symbol (°)
     lcd.print("C");
 
     delay(1000);
